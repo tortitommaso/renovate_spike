@@ -1,0 +1,54 @@
+### COMMON ###
+*~
+.classpath
+.svn/
+.metadata/
+target/
+bin/
+logs/
+*.swp
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+#!**/src/main/**/target/
+#!**/src/test/**/target/
+yarn.lock
+*-shell.log
+.devspace
+*VBoxHeadless*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### ECLIPSE ###
+.project
+.settings/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Visual Studio Code ###
+.vscode/
+!data/rest-client/.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Helm ###
+*.tgz
+*.lock
