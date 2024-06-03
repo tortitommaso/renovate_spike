@@ -6,7 +6,7 @@
       {
         "matchManagers": ["maven"],
         "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": false
+        "automerge": true
       }
     ]
   }
